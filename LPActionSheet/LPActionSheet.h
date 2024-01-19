@@ -75,4 +75,9 @@ typedef void(^LPActionSheetBlock)(LPActionSheet *actionSheet, NSInteger index);
  */
 - (void)show;
 
+/**
+ * 关闭视图
+ */
+- (void)dismiss;
+
 @end
